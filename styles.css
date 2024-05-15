@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#change-cont{
+    
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(225, 157, 11, 0.995);
+    border-radius: 10px;
+    z-index: 3;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+#changes{
+    width: 140px;
+    height: 180px;
+    font-size: 13.5px;
+    background-color: rgb(213, 234, 252);
+    font-family: "Caveat", cursive;
+    background-color: rgb(255, 249, 237);
+    border-radius: 10px;
+    border: 1.9px solid brown;
+}
+#changes h3{
+    text-align: center;
+    font-size: large;
+}
+#changes p{
+    position: relative;
+    top: 4px;
+    left: 8px;
+    font-weight: 700;
+}
+#changes-bl{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(250, 118, 10);
+    border-radius: 10px;
+}
+#cont-0{
+    width: 50px;
+    position: relative;
+    top: 100px;
+    left: 70px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 3px;
+    background-color: rgb(245, 105, 6);
+}
+#cont-1 input{
+    border: 1.6px solid rgb(52, 52, 87);
+}
+#cont-1{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #efa510;
+    border-radius: 20px;
+    z-index: 3;
+}
+#cont-1-1{
+    width: 85px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: #f88102; */
+}
+#cont-1-1 button{
+    width: 25px;
+    height: 20px;
+    /* background-color: black; */
+    margin-bottom: 3px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 18px;
+    color: #000000;
+}
+#cont-1-1 .dailer:active{
+    background-color: #000000;
+    color: rgb(10, 235, 28);
+}
+#delete:active{
+    background-color: rgb(209, 250, 4);
+    color: red;
+}
+#clear:active{
+    background-color: red;
+    color: ghostwhite;
+}
+#cont-2{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 193px;
+    top: -190px;
+    background-color: rgb(171, 201, 201);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+#cont-2 input{
+    background-color: rgb(222, 217, 217);
+    border-radius: 4px;
+    border: 3px solid rgb(52, 39, 63);
+}
+#cont-2 button{
+    background-color: black;
+    color: ghostwhite;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    font-size: large;
+}
+#cont-2 button:active{
+    background-color: ghostwhite;
+    background-color: rgb(38, 67, 37);
+
+    
+}
+#cont-2 h4{
+    font-family: "Caveat", cursive;
+    font-size:19px;
+}
+#cont-3{
+    background-color: #f88102;
+    width: 210px;
+    height: 190px;
+    position: relative;
+    left: 200px;
+    top: -192px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+#change-due{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
+    border: 1.9px solid rgb(45, 16, 16);
+    color: #000000;
+}
+#deco{
+    width: 400px;
+    height: 16px;
+    background-color: rgb(121, 83, 18);
+    z-index: -2;
+    border-radius: 50%;
+    position: relative;
+    top: -195px;
+}
+#price-div{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(184, 97, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#price-div input{
+    width: 90px;
+    border-radius: 4px;
+}
+#container{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width: 400px;
+    /* overflow: auto; */
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: auto; */
+    background-color: rgb(16, 25, 32);
+}
+#change-due p{
+    font-size: 14px;
+    overflow: hidden;
+    
+}

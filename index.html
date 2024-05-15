@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cash-register</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+    <div id="change-cont">
+        <div id="changes">
+            <h3>Changes in drawer:</h3>
+        </div>
+        <div id="changes-bl"></div>
+    </div>
+    <div id="cont-0"></div>
+    <div id="cont-1">
+        <div id="cont-1-1">
+            <button value="1" class="dailer">1</button>
+            <button value="2" class="dailer">2</button>
+            <button value="3" class="dailer">3</button>
+            <button value="4" class="dailer">4</button>
+            <button value="5" class="dailer">5</button>
+            <button value="6" class="dailer">6</button>
+            <button value="7" class="dailer">7</button>
+            <button value="8" class="dailer">8</button>
+            <button value="9" class="dailer">9</button>
+            <button id="clear">X</button>
+            <button value="0" class="dailer">0</button>
+            <button id="delete"><=</button>
+        </div>
+        
+        <div id="price-div">
+            <input type="number">
+        </div>
+    </div>
+    <div id="cont-2">
+            <h4>Enter cash from customer</h4>
+            <input type="number" id="cash">
+            <button id="purchase-btn">purchase</button>
+        </div>
+    <div id="cont-3">
+        <div id="change-due"></div>
+    </div>
+    <div id="deco"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
